@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.selected {
+    background-color: #ccc;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.belt {
+    background-color: gray;
+}
+.merger {
+    background-color: blue;
+}
+.splitter {
+    background-color: green;
+}
+.endpoint {
+    background-color: red;
+}
+.start {
+    border: 2px solid yellow;
+}
+.end {
+    border: 2px solid black;
+}

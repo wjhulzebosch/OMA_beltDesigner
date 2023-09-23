@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Interactive Grid</h2>
+    <button onclick="selectAction('belt')">Belt</button>
+    <button onclick="selectAction('merger')">Merger</button>
+    <button onclick="selectAction('splitter')">Splitter</button>
+    <button onclick="selectAction('endpoint')">Endpoint</button>
+    <button onclick="selectAction('connection')">Create connection</button>
+    <button onclick="selectAction('delete')">Delete</button>
+    <button onclick="generateCode()">Generate Code</button>
+    <table id="grid">
+        <!-- The grid will be populated by JavaScript -->
+    </table>
+    <textarea id="codeOutput" rows="10" cols="30"></textarea>
+
+    <script src="script.js"></script>
+
+    <!-- Call setupGrid -->
+    <script>
+        setupGrid();
+    </script>
+</body>
+</html>
